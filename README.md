@@ -12,7 +12,7 @@
 		<h2>수행4</h2>
 		<h2>수행5</h2>
 		
-		<iframe name='action' width="0" height="0" frameborder="0" scrolling='yes'></iframe>
+		
 
 <form name="addForm" method="post" target="action" action="/notice/notice_add_act.jsp">
 <table>
@@ -36,7 +36,7 @@
     </tr>
     <tr>
      <td>내용</td>
-     <td><textarea name="contents" cols="50" rows="13"></textarea></td>
+     <td></td>
     </tr>
    </table>
 
