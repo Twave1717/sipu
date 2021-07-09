@@ -5,6 +5,9 @@
 		<title>수행평가 공지 페이지</title>
 	</head>
 	<body>
+		
+		<iframe name='action' width="0" height="0" frameborder="0" scrolling='yes'></iframe>
+		
 		<h1>대충 수행평가 공지 게시판</h1>
 		<h2>수행1</h2>
 		<p> 시프 앱인벤터 활용 ~~~만들기</p>
