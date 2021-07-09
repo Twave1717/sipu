@@ -13,10 +13,45 @@
 		<h2>수행5</h2>
 		
 		<iframe name='action' width="0" height="0" frameborder="0" scrolling='yes'></iframe>
-		<table>
-			 <tr>
-				<td><a href="/notice/notice_add.jsp"><img src="이미지주소" border="0" alt="등록"></a></td>
-			</tr>
-		</table>
+
+<!-- 여기서도 폼값 넘어갈때 오류가 나면 바로 확인하기 위해서 아이프레임을 넣었습니다 -->
+
+<form name="addForm" method="post" target="action" action="/notice/notice_add_act.jsp">
+<table>
+ <tr>
+  <td>
+
+   <table>
+    <tr>
+     <td>공지사항</td>
+    </tr>
+   </table>
+
+   <table>
+    <tr>
+     <td>아이디</td>
+     <td><input name="user_id" size="50" maxlength="50"></td>
+    </tr>
+    <tr>
+     <td>제목</td>
+     <td><input name="subject" size="50" maxlength="100"></td>
+    </tr>
+    <tr>
+     <td>내용</td>
+     <td><textarea name="contents" cols="50" rows="13"></textarea></td>
+    </tr>
+   </table>
+
+   <table>
+    <tr>
+     <td><input type="image" src="이미지주소" border="0" alt="저장"></td>
+     <td><a href="/notice/notice_list.jsp"><img src="이미지주소" border="0" alt="취소"></a></td>
+    </tr>
+   </table>
+
+  </td>
+ </tr>
+</table>
+</form>
 	</body>
 </html>
