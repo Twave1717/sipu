@@ -14,8 +14,6 @@
 		
 		<iframe name='action' width="0" height="0" frameborder="0" scrolling='yes'></iframe>
 
-<!-- 여기서도 폼값 넘어갈때 오류가 나면 바로 확인하기 위해서 아이프레임을 넣었습니다 -->
-
 <form name="addForm" method="post" target="action" action="/notice/notice_add_act.jsp">
 <table>
  <tr>
