@@ -11,6 +11,12 @@
 		<h2>수행3</h2>
 		<h2>수행4</h2>
 		<h2>수행5</h2>
-		<p>아직 여기까지는 실력이 부족합니다...</p>
+		
+		<iframe name='action' width="0" height="0" frameborder="0" scrolling='yes'></iframe>
+		<table>
+			 <tr>
+				<td><a href="/notice/notice_add.jsp"><img src="이미지주소" border="0" alt="등록"></a></td>
+			</tr>
+		</table>
 	</body>
 </html>
